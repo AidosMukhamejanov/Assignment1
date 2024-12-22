@@ -4,7 +4,8 @@ public class Cylinder {
 
     public Cylinder(double radius, double height) {
         this.radius = radius;
-        this.height = height;    }
+        this.height = height;
+    }
 
     public double SurfaceArea() {
         return 2 * Math.PI * radius * height + 2 * Math.PI * Math.pow(radius, 2);
